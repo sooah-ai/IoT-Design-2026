@@ -1,0 +1,12 @@
+name: Arduino Verify
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Arduino Lint
+        uses: arduino/arduino-lint-action@v1
+        with:
+          path: ./Week-02-ESP32-Basics/
