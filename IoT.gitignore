@@ -1,0 +1,14 @@
+# Arduino/ESP32 build folders
+build/
+bin/
+*.elf
+*.bin
+*.hex
+
+# Desktop/OS specific files
+.DS_Store
+Thumbs.db
+
+# Arduino IDE temporary files
+*~
+*.swp
